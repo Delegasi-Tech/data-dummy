@@ -1,8 +1,162 @@
 {
   "report": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "aktiva",
+      "content": "hello"
     }
-  ]
+  ],
+  "lap_aktiva": {
+    "label": "Neraca",
+    "value": 1100000000,
+    "month": "2023-01",
+    "details": [
+      {
+        "label": "Aktiva",
+        "value": 600859935,
+        "month": "2023-01",
+
+        "details": [
+          {
+            "label": "Aktiva Lancar",
+            "value": 345310406,
+            "month": "2023-01",
+            "children": [
+              {
+                "label": "Kas & Bank",
+                "value": 210886397,
+                "month": "2023-01",
+                "details": [
+                  {
+                    "label": "Kas",
+                    "value": 3963000,
+                    "month": "2023-01",
+                    "details": []
+                  },
+                  {
+                    "label": "Petty Cash",
+                    "value": 500000,
+                    "month": "2023-01",
+                    "details": []
+                  },
+                  {
+                    "label": "Rekening BCA",
+                    "value": 203664341,
+                    "month": "2023-01",
+                    "details": []
+                  },
+                  {
+                    "label": "Rekening Mandiri",
+                    "value": 3963000,
+                    "month": "2023-01",
+                    "details": []
+                  }
+                ]
+              },
+              {
+                "label": "Akun Piutang",
+                "value": 3735411,
+                "month": "2023-01",
+                "details": []
+              },
+              {
+                "label": "Persediaan",
+                "value": 3735411,
+                "month": "2023-01",
+                "details": []
+              },
+              {
+                "label": "Aktiva Lancar Lainnya",
+                "value": 3735411,
+                "month": "2023-01",
+                "details": []
+              }
+            ]
+          },
+          {
+            "label": "Aktiva Tidak Lancar",
+            "value": 600859935,
+            "month": "2023-01",
+            "details": [
+              {
+                "label": "Aktiva Tetap",
+                "value": 260295460,
+                "month": "2023-01",
+                "details": []
+              },
+              {
+                "label": "Depresiasi & Amortisasi",
+                "value": 4745930,
+                "month": "2023-01",
+                "details": []
+              },
+              {
+                "label": "Aktiva Lainnya",
+                "value": 0,
+                "month": "2023-01",
+                "details": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Pasiva",
+        "value": 600859935,
+        "month": "2023-01",
+        "details": [
+          {
+            "label": "Kewajiban Lancar",
+            "value": 24476500,
+            "month": "2023-01",
+            "details": [
+              {
+                "label": "Akun Hutang",
+                "value": 1556500,
+                "month": "2023-01",
+                "details": []
+              },
+              {
+                "label": "Kewajiban Lancar Lainnya",
+                "value": 22920000,
+                "month": "2023-01",
+                "details": []
+              }
+            ]
+          },
+          {
+            "label": "Kewajiban Tidak Lancar",
+            "value": 24476500,
+            "month": "2023-01",
+            "details": [
+              {
+                "label": "Kewajiban Jangka Panjang",
+                "value": 24476500,
+                "month": "2023-01",
+                "details": []
+              }
+            ]
+          },
+          {
+            "label": "Ekuitas",
+            "value": 24476500,
+            "month": "2023-01",
+            "details": [
+              {
+                "label": "Ekuitas",
+                "value": 24476500,
+                "month": "2023-01",
+                "details": []
+              },
+              {
+                "label": "Laba Ditahan",
+                "value": 24476500,
+                "month": "2023-01",
+                "details": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
